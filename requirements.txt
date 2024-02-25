@@ -4,4 +4,4 @@ google-generativeai
 PyPDF2
 python-dotenv
 langchain_google_genai
-chromadb
+chromadb==0.3.29
