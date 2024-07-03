@@ -5,3 +5,4 @@ PyPDF2
 python-dotenv
 langchain_google_genai
 chromadb==0.3.29
+langchain-community
