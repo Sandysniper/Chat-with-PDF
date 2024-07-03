@@ -72,7 +72,7 @@ def main():
     st.set_page_config("Chat PDF")
     st.header("Chat with PDF using Gemini💁")
 
-    user_question = st.text_input("Ask a Question from the PDF Files")
+    user_question = st.text_input("Ask a Question from the PDF Files",style="border:2px solid #007bff;background-color:#f7f7f7;")
     pdf_docs = st.file_uploader("Upload your PDF Files and Click on the Submit & Process Button", accept_multiple_files=True)
 
       # Create the Chroma instance outside of the user_input() function
