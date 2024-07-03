@@ -69,11 +69,10 @@ def get_conversational_chain():
 
 
 def main():
-    st.set_page_config("Chat PDF")
+    st.set_page_config("Chat PDF",theme="dark")
     st.header("Chat with PDF using Gemini💁")
 
-    user_question = st.text_input("Ask a Question from the PDF Files",style="border:1px solid #FF0000;border-radius:8px;background-color:#f7f7f7;",unsafe_allow_html=True)
-    
+    user_question = st.text_input("Ask a Question from the PDF Files")
     pdf_docs = st.file_uploader("Upload your PDF Files and Click on the Submit & Process Button", accept_multiple_files=True)
 
       # Create the Chroma instance outside of the user_input() function
