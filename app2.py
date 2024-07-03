@@ -69,7 +69,7 @@ def get_conversational_chain():
 
 
 def main():
-    st.set_page_config(page_title="Chat PDF",theme="dark")
+    st.set_page_config("Chat PDF")
     st.header("Chat with PDF using Gemini💁")
 
     user_question = st.text_input("Ask a Question from the PDF Files")
